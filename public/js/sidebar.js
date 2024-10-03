@@ -10,3 +10,17 @@ toggle_icons.addEventListener('click',()=>{
         toggle.classList.remove('psr-sidebar-collapsed');
     }
 })
+
+
+const checkScreenSize = ()=>{
+    const width = window.innerWidth;
+    if (width <= 768) {
+        toggle.classList.add('psr-sidebar-collapsed');
+        toggle.classList.remove('psr-sidebar-expanded');
+    } else {
+        toggle.classList.add('psr-sidebar-expanded');
+        toggle.classList.remove('psr-sidebar-collapsed');
+    }
+}
+checkScreenSize();
+window.addEventListener('resize', checkScreenSize);
