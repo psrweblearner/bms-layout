@@ -1,0 +1,87 @@
+
+.psr-counter .psr-container .psr-grid{
+    gap: 3rem;
+}
+.psr-counter .psr-card-box {
+    background: var(--clr-card); /* Optional styling */
+    padding: 2rem;
+    text-align: center;
+    height: 15rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow);
+    gap: 1.5rem;
+}
+.psr-counter .psr-card-icons{
+    background: var(--clr-main);
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: var(--font-size-md);
+    color: var(--clr-span);
+}
+.psr-counter .psr-card-title-wrap {
+    text-align: left;
+}
+.psr-counter  .psr-card-title-wrap .psr-card-title{
+    width: 100%;
+    font-size: var(--font-size-sm);
+    margin: .5rem;
+    text-transform: uppercase;
+}
+.psr-counter .psr-card-count{
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+}
+.psr-counter .psr-count-progress{
+    font-size: var(--font-size-sm);
+}
+.psr-counter .psr-increase{
+    color: var(--clr-success);
+}
+.psr-counter .psr-decrease{
+    color: var(--clr-danger);
+}
+.psr-services .psr-container .psr-grid{
+    gap: 3rem;
+}
+.psr-services .psr-service-img img{
+    width: 100%;
+    height: 20rem;
+    padding: 1rem;
+}
+.psr-services .psr-service-box {
+    background: var(--clr-card);
+    width: 100%;
+    height: 26rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+.psr-services .psr-service-content{
+    text-align: center;
+    font-size: var(--font-size);
+}
+.psr-card{
+    background: var(--clr-card);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    font-size: var(--font-size-xsm);
+}
+.psr-card-header{
+    font-size: var(--font-size-md);
+    padding: 1rem;
+}
+.psr-card-header h4{
+    margin-bottom: 2rem;
+}
+.psr-page-wraper .psr-grid{
+    gap: 3rem;
+}

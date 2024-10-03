@@ -1,0 +1,65 @@
+.psr-service-img img{
+    width: 100%;
+    height: 8rem;
+    padding: .5rem;
+    object-fit: contain;
+}
+.psr-service-box {
+    background: var(--clr-card);
+    width: 100%;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+.psr-service-content{
+    text-align: center;
+    font-size: var(--font-size-sm);
+}
+
+.psr-card-box {
+    background: var(--clr-card);
+    text-align: center;
+    height: 15rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow);
+    gap: 1.5rem;
+    cursor: pointer;
+}
+.psr-card-title-wrap{
+    text-align:left;
+}
+.psr-card-icons{
+    background: var(--clr-main);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: var(--font-size-sm);
+    color: var(--clr-span);
+}
+.psr-card-title{
+    width: 100%;
+    font-size: var(--font-size-sm);
+    margin: .5rem;
+    text-transform: uppercase;
+}
+.psr-card-count{
+    font-size: var(--font-size);
+    font-weight: 600;
+}
+.psr-count-progress{
+    font-size: var(--font-size-xsm);
+}
+.psr-increase{
+    color: var(--clr-success);
+}
+.psr-decrease{
+    color: var(--clr-danger);
+}

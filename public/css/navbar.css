@@ -1,0 +1,40 @@
+/* ======================== Navbar Started ===========
+====================================================== */
+.psr-nav-response{
+    width: 100%;
+    box-shadow: var(--shadow);  
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.psr-container{
+    padding: var(--space-md);
+    z-index: var(--z-index-navbar);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.psr-navbar-brand a{
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    font-family: var(--p-font-family);
+    color: var(--clr-brand);
+    text-transform: uppercase;
+}
+.psr-navbar-brand a span{
+    color: var(--clr-span);
+}
+.psr-navbar ul{
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+ }
+ .psr-navbar li a{
+    font-size: var(--font-size);
+    font-family: var(--h-font-family);
+    color: var(--clr-support);
+    position: relative;
+}
+/* ======================== Navbar Ended ===========
+====================================================== */
